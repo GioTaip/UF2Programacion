@@ -9,11 +9,14 @@ import java.util.Scanner;
  * @author giiov
  */
 public class Ejercicio1 {
-
+    /*Escribe una función llamada “QuienEsIntegranteDeEsteGrupo” que, reciba como
+      parámetro un número entero i-ésimo, y devuelva el miembro i-ésimo del grupo. Si no hay
+      miembro i-ésim tiene que devolver una cadena vacía*/
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        
         Scanner scan=new Scanner(System.in);
         // Solicitamos el numero por teclado
         System.out.print("Numero: ");
@@ -21,8 +24,7 @@ public class Ejercicio1 {
         // Mostramos por pantalla el nombre de la lista haciendo una llamada a nuestra función
         System.out.println(QuienEsIntegranteDeEsteGrupo( Nmiembro));
         
-    } /* Creamos nuestra función llamada "QuienEsIntegranteDeEsteGrupo" la definimos con una variable
-         String ya que es eso lo que nos devolvera recibiendo un Entero*/
+    } /* Creamos nuestra función, recibira un entero y nos devolvera un String*/
     public static String QuienEsIntegranteDeEsteGrupo(int Nmiembro){
        // Creamos una variable String con un Array con nuestra lista definida
        String[] miembros={"Geovanny","Jonathan"}; 

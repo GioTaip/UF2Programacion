@@ -9,7 +9,8 @@ import java.util.Scanner;
  * @author giiov
  */
 public class Ejercicio6 {
-
+    /*Escribe una función llamada “Iniciales” que reciba como parámetro una frase y
+      devuelva un string con las iniciales de cada palabra convertidas a mayúsculas.*/
     /**
      * @param args the command line arguments
      */

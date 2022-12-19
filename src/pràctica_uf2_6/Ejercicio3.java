@@ -10,12 +10,14 @@ import java.util.Scanner;
  * @author giiov
  */
 public class Ejercicio3 {
-
+    /*Escribe una función llamada “Maximo” a la que se le pasa un vector de enteros y
+      debe devolver el mayor de los números que contiene el vector.*/
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
+        
         // Solicitamos el tamaño del vector por teclado
         System.out.print("Cuantos numeros deseas introducir: ");
         int cantidad = scan.nextInt();
